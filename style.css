@@ -1,0 +1,48 @@
+.valent{
+    position: relative;
+    width: 400px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.valent:hover{
+    box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.523);
+}
+
+.valent-image{
+    width: 100%;
+    transition: 1s;
+}
+
+.valent-image:hover{
+    transform: scale(1.5);
+    
+}
+
+.image-box{
+    width: 400px;
+    height: 233px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container{
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.container h4{
+    font-size: 24px;
+}
+
+.container a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 72, 72);
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.container a:hover{
+    background-color: rgb(141, 141, 141);
+}
